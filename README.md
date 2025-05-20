@@ -33,10 +33,7 @@ SKYWORK_API_KEY=your_api_key_here
 }
 ```
 
-## API Usage
-
-### Get Hourly Weather Forecast
-
+## API Usage Response
 Response:
 ```json
 {
