@@ -1,0 +1,18 @@
+[project]
+name = "office-tool"
+version = "0.1.0"
+description = "Office Tool MCP Server, different types of file could be generated."
+authors = []
+dependencies = [
+    "fastmcp",
+    "python-dotenv",
+    "aiohttp",
+    "uvicorn",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+office-tool = "office_tool.office:mcp.run"
