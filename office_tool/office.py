@@ -64,6 +64,17 @@ async def generate_sheet(query: str) -> Dict:
     return await post_with_json_response(gen_url, params)
 
 
+@mcp.tool()
+async def generate_webpage(query: str) -> Dict:
+    """Generate a URL for a webpage file based on the input query."""
+    params = {
+        "api_key": api_key,
+        "query": query,
+        "file_type": "webpage",
+    }
+
+    return await post_with_json_response(gen_url, params)
+
 async def post_with_json_response(url: str, params: Dict) -> Dict:
     async with ClientSession() as session:
         try:
