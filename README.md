@@ -22,7 +22,7 @@ SKYWORK_API_KEY=your_api_key_here
 ```json
 {
     "mcpServers": {
-        "weather": {
+        "office": {
             "command": "uvx",
             "args": ["--from", "git+https://github.com/Skywork-ai/Skywork-Super-Agents.git", "office-tool"],
             "env": {
