@@ -1,7 +1,7 @@
 [project]
 name = "office-tool"
 version = "0.1.0"
-description = "Office Tool MCP Server, different types of file could be generated."
+description = "Office Tool MCP Server, different types of file could be generated, including PPTs, documents, spreadsheets, webpages and broadcasts."
 authors = []
 dependencies = [
     "fastmcp",
