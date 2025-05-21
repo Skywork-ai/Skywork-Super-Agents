@@ -1,6 +1,6 @@
 # Skywork-Super-Agents
 
-A lightweight MCP server offering office tools to generate various file types, including PPTs, documents, spreadsheets, and broadcasts.
+A lightweight MCP server offering office tools to generate various file types, including PPTs, documents, spreadsheets, webpages and broadcasts.
 
 ## Setup
 
