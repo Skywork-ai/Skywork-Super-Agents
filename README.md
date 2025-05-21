@@ -10,7 +10,7 @@ uv venv
 uv sync
 ```
 
-2. Create a `.env` file with your AccuWeather API key:
+2. Create a `.env` file with your SkyWork API key:
 ```
 SKYWORK_API_KEY=your_api_key_here
 ```
